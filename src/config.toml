@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://badducklabs.github.io/"
 languageCode = "en-us"
 title = "BadDuck Labs"
 theme = "hugo-agency-theme"
