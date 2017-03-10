@@ -212,15 +212,15 @@ She worked at Pied Piper for years until they went belly up."""
         ["fa-linkedin", "#"]
       ]
 
-    [[params.team.members]]
-      img = "ruslan.naumenko.jpg"
-      name = "Ruslan Naumenko"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+#     [[params.team.members]]
+#       img = "ruslan.naumenko.jpg"
+#       name = "Ruslan Naumenko"
+#       position = "Lead Developer"
+#       social = [
+#         ["fa-twitter", "#"],
+#         ["fa-facebook", "#"],
+#         ["fa-linkedin", "#"]
+#       ]
 
   # Client section
     [params.clients_list]
