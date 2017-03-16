@@ -274,11 +274,11 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "rgibaiev@gmail.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Thank you for contacting us. We will get back to you today!"
+    error = "Message could not be send. Please contact us at mail@example.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -290,8 +290,8 @@ She worked at Pied Piper for years until they went belly up."""
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+      text = "Your Phone"
+#       warning = "Please enter your phone number."
 
     [params.contact.form.message]
       text = "Your Message *"
