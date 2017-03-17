@@ -253,7 +253,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "We will reply you within same day"
+    subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -274,10 +274,10 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "rgibaiev@gmail.com"
+    email = "your@email.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for contacting us. We will get back to you today!"
+    #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     # 'warning' defines error messages for invalid inputs
@@ -289,9 +289,9 @@ She worked at Pied Piper for years until they went belly up."""
       text = "Your Email *"
       warning = "Please enter your email address."
 
-#     [params.contact.form.phone]
-#       text = "Your Phone"
-#       warning = "Please enter your phone number."
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
 
     [params.contact.form.message]
       text = "Your Message *"
@@ -305,7 +305,8 @@ She worked at Pied Piper for years until they went belly up."""
       #[[params.contact.form.hidden]]
       # Special values for name such as "page" and "site" will be autofilled
       #  name = "page"
-
+      
+      
   # Footer section
   [params.footer]
     enable = false
