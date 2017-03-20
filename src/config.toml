@@ -126,13 +126,13 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "We have worked for the following companies"
+    subtitle = "Companies we have worked for"
 
     [params.portfolio.modal]
       client = "Client"
-      date = "Date"
+#       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+#       buttonText = "Close project"
 
 
     # About section
