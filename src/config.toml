@@ -211,6 +211,17 @@ googleAnalytics = ""
         ["fa-facebook", "http://facebook.com/ruslan.gibaiev"],
         ["fa-linkedin", "https://www.linkedin.com/in/rgibaiev/"]
       ]
+      
+    [[params.team.members]]
+      img = "gopher.png"
+      name = "Gopher"
+      position = "Software Engineer"
+      bio = """Frankly speaking, Gophers are doing all the main job. They are extremely organized, concurrent, and light-weight. Those are the best workers for your project you can imagine."""
+      social = [
+#         ["fa-twitter", "#"],
+        ["fa-facebook", "https://github.com/golang"],
+        ["fa-linkedin", "https://golang.org"]
+      ]
 
 #     [[params.team.members]]
 #       img = "ruslan.naumenko.jpg"
