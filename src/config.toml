@@ -103,7 +103,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Mobile development"
-      description = "We prefer to use hydrid frameworks such as React Native or Ionic to cover both iOs and Android at once. But may also develop native applications."
+      description = "We prefer to use hydrid frameworks such as React Native or Ionic to cover both iOS and Android at once. But may also develop native applications."
       url = "#"
       
 #     [[params.services.row.list]]
