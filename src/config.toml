@@ -89,34 +89,34 @@ googleAnalytics = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
+      icon = "fa-laptop"
       title = "Back-end development"
-      description = "We develop microservices in Golang and NodeJS"
+      description = "We develop microservices mainly in Golang, but depending on project requirements may do it in Python or NodeJS as  well."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Front-end development"
-      description = "Modern frameworks usage: React, AngularJS"
+      description = "We use latest frameworks on the fornt-end side: React, AngularJS."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
+      icon = "fa-laptop"
       title = "Mobile development"
-      description = "Ionic, React Native"
+      description = "We prefer to use hydrid frameworks such as React Native or Ionic to cover both iOs and Android at once. But may also develop native applications."
       url = "#"
       
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "DevOps and delivery"
-      description = "AWS, Docker, CI, Codeship Jenkins, Kubernetes"
-      url = "#"
+#     [[params.services.row.list]]
+#       icon = "fa-lock"
+#       title = "DevOps and delivery"
+#       description = "AWS, Docker, CI, Codeship Jenkins, Kubernetes"
+#       url = "#"
       
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Performance optimization"
-      description = "Highload, distributed systems"
-      url = "#"
+#     [[params.services.row.list]]
+#       icon = "fa-lock"
+#       title = "Performance optimization"
+#       description = "We know how to make your application  large volume of user requests, cope with highload, distributed systems"
+#       url = "#"
 
   # Portfolio section
   [params.portfolio]
@@ -137,7 +137,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -177,7 +177,7 @@ googleAnalytics = ""
     #center = true
     title = "Our amazing team"
     subtitle = "First-class software engineers"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    description = "We have been working together for a quite some period of time and can say with confidence that we form a great team of like-minded professionals"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -187,29 +187,29 @@ googleAnalytics = ""
       name = "Maxim Titov"
       position = "CTO"
 #       reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+#       livesIn = "[Munich, Germany](#some-maps-url)"
+#       scope = [
+#         "UX for [member dashboard](#)",
+#         "Maintainer for [awesome-project](#)",
+#         "Open Source [community management](#)"
+#       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Max is all about delivering best software solutions possible. He is passionate software developer with Team Lead / Architect experience."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+#         ["fa-twitter", "#"],
+        ["fa-facebook", "http://facebook.com/max.titov"],
+        ["fa-linkedin", "https://www.linkedin.com/in/maxtitov/"]
       ]
 
     [[params.team.members]]
       img = "Ruslan Gibaiev round.png"
       name = "Ruslan Gibaiev"
-      position = "Lead Developer"
+      position = "Software Engineer"
+      bio = """Ruslan is passionate about solving hard and non-trivial problems. He combines significant data analysis, project management, people management, and software development experience. Ruslan thinks that it is all about setting right goals and working hard towards achieving them."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+#         ["fa-twitter", "#"],
+        ["fa-facebook", "http://facebook.com/ruslan.gibaiev"],
+        ["fa-linkedin", "https://www.linkedin.com/in/rgibaiev/"]
       ]
 
 #     [[params.team.members]]
@@ -253,8 +253,8 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    subtitle  = "Feel free to reach us out at [hello@badducklabs.com](mailto:hello@badducklabs.com)"
+#     buttonText = "hello@badducklabs.com(mailto:hello@badducklabs.com)"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -274,28 +274,28 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "ruslan.gibaiev@badducklabs.com"
+#     email = "ruslan.gibaiev@badducklabs.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
-
-    [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+#     [params.contact.form.name]
+#       text = "Your Name *"
+#       warning = "Please enter your name."
+# 
+#     [params.contact.form.email]
+#       text = "Your Email *"
+#       warning = "Please enter your email address."
 
 #     [params.contact.form.phone]
 #       text = "Your Phone *"
 #       warning = "Please enter your phone number."
 
-    [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+#     [params.contact.form.message]
+#       text = "Your Message *"
+#       warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -309,25 +309,25 @@ She worked at Pied Piper for years until they went belly up."""
       
   # Footer section
   [params.footer]
-    enable = false
-    copyright = "Published under the Apache License 2.0."
+    enable = true
+#     copyright = "Published under the Apache License 2.0."
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
+#     [[params.footer.social]]
+#       icon = "fa-twitter"
+#       link = "#"
+# 
+#     [[params.footer.social]]
+#       icon = "fa-facebook"
+#       link = "#"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/company-beta/17994952/"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+#     [[params.footer.quicklinks]]
+#       text = "Privacy Policy"
+#       link = "#"
+# 
+#     [[params.footer.quicklinks]]
+#       text = "Terms of Use"
+#       link = "#"

@@ -1,10 +1,10 @@
 modalID: 3
 title: EPAM
-#subtitle: Lorem ipsum dolor sit amet consectetur.
+subtitle: Global Software Engineering services provider
 #date: 2014-07-07
 img: EpamLogo.png
 preview: EpamLogo.png
-#client: Start Bootstrap
-#clientLink: "#"
+client: EPAM
+clientLink: "https://www.epam.com"
 category: Global Software Engineering services provider
-#description: Treehouse is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](freebiesxpress.com/gallery/treehouse-free-psd-web-template/).
+description: During work at EPAM we have participated in number of different projects.

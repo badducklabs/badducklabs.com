@@ -1,10 +1,10 @@
 modalID: 2
 title: Yandex
-#subtitle: Second company description
+subtitle: Largest search-engine in CIS
 #date: 2014-07-06
 img: YandexLogo.png
 preview: YandexLogo.png
-#client: Start Bootstrap
-#clientLink: "#"
+client: Yandex
+clientLink: "https://www.yandex.com"
 category: Largest search-engine in CIS
-#description: "[Startup Framework](//designmodo.com/startup/?u=787) is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects. <br><br>You can preview Startup Framework [here](//designmodo.com/startup/?u=787)."
+description: Yandex is the largest search engine in the CIS region and is fourth largest worldwide. Working there allowed us understand the importance of data collection and data analysis.
